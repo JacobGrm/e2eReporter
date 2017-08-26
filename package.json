@@ -1,0 +1,28 @@
+{
+  "name": "e2eReporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "jacob.grimberg@ge.com",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "bluebird-queue": "0.0.8",
+    "body-parser": "^1.17.1",
+    "bunyan": "^1.8.8",
+    "cfenv": "^1.0.4",
+    "config": "^1.25.1",
+    "express": "^4.15.2",
+    "eyespect": "^0.1.10",
+    "morgan": "^1.8.1",
+    "nano": "^6.2.0",
+    "nano-blue": "^0.3.0",
+    "preferences": "^0.2.1",
+    "promise-queue": "^2.2.3",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  }
+}

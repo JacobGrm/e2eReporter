@@ -1,0 +1,14 @@
+---
+# APPLICATION LIST:
+applications:
+# Microservice name:
+- name: e2eReporter
+  path: .
+  memory: 512M
+  instances: 1
+  env:
+    PM_EP_URL: https://98h7v1.run.aws-usw02-pr.ice.predix.io/
+    PM_BUCKET: pm
+    PM_USERNAME: jacob@ge.com
+    PM_PASSWORD: Test123
+    PM_UAA_URL: https://7dd76bdd-1c4a-4f1f-aaf9-a5f3c64ee0be.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token
